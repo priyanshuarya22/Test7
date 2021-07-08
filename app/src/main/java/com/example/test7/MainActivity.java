@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //creating object of myAsyncClass passing the object of this class
-                myAsyncClass mac = new myAsyncClass(MainActivity.this);
+                MyAsyncClass mac = new MyAsyncClass(MainActivity.this);
                 //executing mac
                 mac.execute();
             }

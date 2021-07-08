@@ -6,13 +6,13 @@ import android.os.AsyncTask;
 import android.os.CountDownTimer;
 import android.widget.Toast;
 
-public class myAsyncClass extends AsyncTask<Void, Void, Void> {
+public class MyAsyncClass extends AsyncTask<Void, Void, Void> {
     //creating reference variables
     ProgressDialog pd;
     MainActivity ma;
 
     //constructor of this class
-    myAsyncClass(MainActivity ma) {
+    MyAsyncClass(MainActivity ma) {
         //setting global variable ma equals to local variable ma
         this.ma = ma;
         //creating object of progress dialog
